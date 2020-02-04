@@ -161,4 +161,4 @@ if you want to deploy to the cloud , here i give a solution:
 * in the project folder run`gcloud init` and choose your googlde cloud app engin
 * and run gcloud deploy
 
-### for more deployment detail see this [document]('https://hackmd.io/vIgqUIBAQA-MeDwsy1eEDw')
+### for more deployment detail see this [document](https://hackmd.io/vIgqUIBAQA-MeDwsy1eEDw)
