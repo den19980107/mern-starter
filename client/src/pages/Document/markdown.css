@@ -1,0 +1,23 @@
+pre{
+   background: #f7f7f7;
+   padding: 1rem;
+}
+
+
+table{
+   border: 0.5px solid #ccc;
+}
+
+tr{
+   border: 0.5px solid #ccc;
+   padding: 1rem;
+}
+
+th ,td{
+   border: 0.5px solid #ccc;
+   padding: 1rem;
+}
+
+p{
+   font-size: 20px;
+}

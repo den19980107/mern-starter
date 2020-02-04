@@ -1,0 +1,7 @@
+# server
+/node_modules
+/dist
+
+# client
+/client/node_modules
+/client/build
