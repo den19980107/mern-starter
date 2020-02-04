@@ -21,6 +21,8 @@ make sure you fill up the
 * src/config/default.ts `declar the server url and client url`
 * src/config/keys.ts `mongodb url , third party login key`
 * client/src/config/default.js `declar the server url`
+* npm install at root folder
+* npm install at client folder
 
 ## Quick Start
 
