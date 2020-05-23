@@ -31,7 +31,7 @@ const Login = ({ isLogin }) => {
          username,
          password
       }
-      axios.post('/auth/login', loginData)
+      axios.post('/api/auth/login', loginData)
          .then(res => {
             if (res.status === 200) {
                console.log(res.data)

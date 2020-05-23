@@ -34,7 +34,7 @@ const MenuBar = () => {
                      <NavDropdown title={user.displayName} style={{ marginRight: "1rem" }} id="nav-dropdown" >
                         <NavDropdown.Item><Link style={{ color: "black" }} to="/profile">個人資料</Link></NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href={`${config.serverUrl}/auth/logout`} style={{ color: "black" }}>登出</NavDropdown.Item>
+                        <NavDropdown.Item href={`${config.serverUrl}/api/auth/logout`} style={{ color: "black" }}>登出</NavDropdown.Item>
                      </NavDropdown>
 
                   </React.Fragment>

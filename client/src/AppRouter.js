@@ -17,7 +17,7 @@ class AppRouter extends Component {
   }
 
   componentDidMount() {
-    fetch("/auth/login/success", {
+    fetch("/api/auth/login/success", {
       method: "GET",
       credentials: "include",
       headers: {

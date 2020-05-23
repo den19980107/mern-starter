@@ -61,8 +61,8 @@ app.use(
 );
 
 // set up routes
-app.use("/auth", authRoutes);
-app.use('/user', userRoutes);
+app.use("/api/auth", authRoutes);
+app.use('/api/user', userRoutes);
 
 if (config.mode == 'production') {
   app.use(express.static('client/build'))

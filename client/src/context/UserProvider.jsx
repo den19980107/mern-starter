@@ -6,7 +6,7 @@ const UserProvider = ({ children }) => {
    const [user, setUser] = useState({});
 
    useEffect(() => {
-      fetch("/auth/login/success", {
+      fetch("/api/auth/login/success", {
          method: "GET",
          credentials: "include",
          headers: {

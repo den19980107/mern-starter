@@ -43,7 +43,7 @@ router.get(
   "/facebook/callback",
   passport.authenticate("facebook", {
     successRedirect: CLIENT_HOME_PAGE_URL,
-    failureRedirect: "/auth/login/failed"
+    failureRedirect: "/api/auth/login/failed"
   })
 );
 
@@ -55,7 +55,7 @@ router.get(
   "/google/callback",
   passport.authenticate("google", {
     successRedirect: CLIENT_HOME_PAGE_URL,
-    failureRedirect: "/auth/login/failed"
+    failureRedirect: "/api/auth/login/failed"
   })
 );
 
